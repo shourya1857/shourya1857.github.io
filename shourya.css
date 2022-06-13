@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
+  }
+  
+  
+  .box{
+    width: 100%;
+    overflow: none;
+  }
+  
+  .dish{
+    overflow: none;
+    text-align: center;
+    border: 4px solid black;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    margin-right: 36px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .box-content{
+    border: 5px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black
+    font-size: 25px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  .dish1{
+    background-color: #FFB6C1;
+  }
+  
+  .dish2{
+    color: white;
+    background-color: #FF0000;
+  }
+
+  .dish3{
+    background-color: #FFFF00;
+  }
+  
+  @media (min-width: 0px) and (max-width: 767px) {
+    .small {
+        float: left;
+      width: 100%;
+    }
+    .dish{
+      margin-right: 30px;
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .mid-1,.mid-2 {
+      float: left;
+    }
+    .mid-1 {
+      width: 50%;
+    }
+    .mid-2 {
+      margin-left: -10px;
+      width: 100%;
+    }
+    .dish3{
+      margin-right: 65px;
+      width: 100px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .large {
+        float: left;
+      width: 33.33%;
+    }
+  }
